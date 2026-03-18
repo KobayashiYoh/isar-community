@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(dart analyze:*)",
+      "Bash(git ls-remote --heads https://github.com/isar-community/libmdbx.git)",
+      "Bash(cargo build)",
+      "Bash(xargs cat)",
+      "Read(//Users/yo/.pub-cache/hosted/pub.dev/**)",
+      "Read(//Users/yo/.pub-cache/hosted/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
