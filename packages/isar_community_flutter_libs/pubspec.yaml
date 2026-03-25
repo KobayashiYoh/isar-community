@@ -22,7 +22,11 @@ platforms:
 dependencies:
   flutter:
     sdk: flutter
-  isar_community: 3.3.0
+  isar_community:
+    git:
+      url: https://github.com/KobayashiYoh/isar-community
+      ref: fix-ios-storage-leak
+      path: packages/isar_community
 
 flutter:
   plugin:
